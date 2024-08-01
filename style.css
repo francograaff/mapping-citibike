@@ -1,0 +1,154 @@
+body {
+    background-color: #1C2121;
+    font-family: 'Playfair Display'
+}
+
+#sections,
+.title {
+    font-size: 1.5vw;
+    position: relative;
+    display: inline-block;
+    width: 450px;
+    top: 0px;
+    z-index: 90;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Roboto';
+    overflow: hidden;
+    position: relative;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 5.25vw;
+    /*color: #331e38;*/
+    color: white;
+    font-family: 'Playfair Display';
+}
+
+.step {
+    margin-bottom: 200px;
+    font-size: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    /* Initially hide all sections */
+    transition: opacity 1s ease-in-out;
+}
+
+.step.active {
+    opacity: 1;
+    /* Show the active section */
+}
+
+.first {
+    margin-bottom: 200px;
+}
+
+.header {
+    font-size: 4.2vw;
+    margin-bottom: 3vw;
+}
+
+.space {
+    margin-bottom: 400px;
+}
+
+#vis {
+    display: inline-block;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    margin-left: 0;
+    height: 600px;
+    width: 600px;
+    background-color: none;
+}
+
+.faded {
+    opacity: 0.4;
+    color: white;
+    font-weight: normal;
+}
+
+.strong {
+    opacity: 1;
+    color: white;
+    font-weight: 700;
+}
+
+.authors {
+    font-size: 100%;
+    font-family: 'Roboto';
+    color: white;
+    
+}
+
+.date {
+    font-size: 100%;
+    opacity: 0.4;
+    color: white;
+    font-weight: normal;
+}
+
+.intro {
+    font-size: 2.6vw;
+    font-weight: normal;
+    color: white;
+}
+
+
+/*
+#extra-space {
+    height: 300px;
+}
+*/
+
+.year-2013 {
+    color: #4e79a7;
+}
+
+.year-2014 {
+    color: #f28a2b;
+}
+
+.year-2015 {
+    color: #e15759;
+}
+
+.year-2016 {
+    color: #76b7b2;
+}
+
+.year-2017 {
+    color: #59a14f;
+}
+
+.year-2018 {
+    color: #edc948;
+}
+
+.year-2019 {
+    color: #b07aa1;
+}
+
+.year-2020 {
+    color: #ff9da7;
+}
+
+.year-2021 {
+    color: #9c755f;
+}
+
+.year-2022 {
+    color: #bab0ac;
+}
+
+.year-2023 {
+    color: #4e79a7;
+}
+
+.year-2024 {
+    color: #f28a2b;
+}
