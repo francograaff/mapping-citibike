@@ -1,11 +1,23 @@
+.robotoMono {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
 body {
     background-color: #1C2121;
-    font-family: 'Playfair Display'
-}
+    font-family: 'Roboto', monospace;
+    font-weight: 300;
+    padding-top: 1em;}
 
 #sections,
 .title {
-    font-size: 1.5vw;
+    color: white;
+    font-size: 1em;
     position: relative;
     display: inline-block;
     width: 450px;
@@ -16,14 +28,29 @@ body {
     font-family: 'Roboto';
     overflow: hidden;
     position: relative;
-    font-weight: bold;
+    font-weight: 300;
 }
 
 h1 {
-    font-size: 5.25vw;
-    /*color: #331e38;*/
-    color: white;
-    font-family: 'Playfair Display';
+    font-family: 'Roboto', monospace;
+    font-weight: 300;
+    padding-top: 1em;
+}
+
+h2 {
+    font-family: 'Roboto', monospace;
+    font-weight: 300;
+    padding-top: 1em;
+}
+h3 {
+    font-family: 'Roboto', monospace;
+    font-weight: 300;
+    padding-top: 1em;
+}
+h4 {
+    font-family: 'Roboto', monospace;
+    font-weight: 400;
+    padding-top: 1em;
 }
 
 .step {
@@ -47,8 +74,8 @@ h1 {
 }
 
 .header {
-    font-size: 4.2vw;
-    margin-bottom: 3vw;
+    font-size: 1em;
+    margin-bottom: 1em;
 }
 
 .space {
@@ -67,15 +94,14 @@ h1 {
 }
 
 .faded {
-    opacity: 0.4;
     color: white;
-    font-weight: normal;
+    font-weight: 300;
 }
 
 .strong {
     opacity: 1;
     color: white;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 .authors {
@@ -86,15 +112,12 @@ h1 {
 }
 
 .date {
-    font-size: 100%;
     opacity: 0.4;
-    color: white;
-    font-weight: normal;
 }
 
 .intro {
-    font-size: 2.6vw;
-    font-weight: normal;
+    font-size: 1em;
+    font-weight: 300;
     color: white;
 }
 

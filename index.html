@@ -5,104 +5,89 @@
     <meta charset="UTF-8">
     <title>A Decade of Citi Bike</title>
     <link href='https://fonts.googleapis.com/css?family=Playfair Display|Roboto' rel='stylesheet'>
-    
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500|Roboto:300,300i,400,400i&display=swap">
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <link rel="stylesheet" type="text/css" href="./style.css" />
 </head>
 
-<body>
+<body class = "mw6 mw8-ns"->
     <div class="title">
-        <h1>Visual Insights from a Decade of Citi Bikes in New York</h1>
-        <p class="authors"> By Joric Barber, Franco Magalhaes, Martha Njuguna and Margot Stern </p>
-        <p class="date"> May 9, 2024</p>
+        <h1 class = "f-headline lh-solid">Visual Insights from a Decade of Citi Bikes in New York</h1>
+        <p class="f3 lh-copy"> By Joric Barber, Franco Magalhaes, Martha Njuguna and Margot Stern </p>
+        <p class="f3 lh-copy date robotoMono"> Spring 2024</p>
         <section class="space"></section>
-        <p class="intro"> Since its launch in 2013, Citi Bike has <strong>fundamentally transformed</strong> how people navigate
-            and experience <strong>the largest city in the United States</strong>. <br> <br> <strong>These are the paths riders have most often taken over the years.</strong>
+        <p class="f2 lh-copy"> Since its 2013 launch, Citi Bike has transformed navigation in the largest city in the U.S., shaping riders' most frequented paths. <br> <br> These are the paths riders have most often taken over the years.</strong>
         </p>
         <section class="space"></section>
     </div>
-    <div id="graphic">
+    <div id="graphic" class = "f2 lh-copy">
         <div id="sections">
             <section class="step year-2013">
-                <div class="header">2013</div>
-                <p class="faded"> Citi Bike <strong>launches in late May with 330 stations</strong>. The stations are located in Manhattan south of 59th Street and in Brooklyn north of Atlantic Avenue and west of Nostrand Avenue. <strong>Within its first month, there is a reported 500,000 rides</strong>.
+                <div class="header robotoMono">2013</div>
+                <p class="faded"> Citi Bike launches in late May with 330 stations in Manhattan south of 59th Street and Brooklyn north of Atlantic Avenue and west of Nostrand Avenue, recording 500,000 rides in its first month.
                 </p>
             </section>
             <section class="space"></section>
             <section class="step year-2014">
-                <div class="header">2014</div>
-                <p class="faded"> In October, the New York City Bike Share, the operator of Citi Bike, comes under <strong>new ownership</strong> and it is announced a plan to improve and expand the Citi Bike program. A 6,000 bike expansion is announced, that <strong>will double the size of network from 
-                6,000 to 12,000 bikes</strong>. </p>
+                <div class="header robotoMono">2014</div>
+                <p class="faded"> In October, Citi Bike’s new owner announces a plan to double the fleet from 6,000 to 12,000 bikes and expand the program. </p>
             </section>
             <section class="space"></section>
             <section class="step year-2015">
-                <div class="header">2015</div>
-                <p class="faded"> Citi Bike expansion begins, bringing <strong>140 new stations</strong> to Bed-Stuy, Greenpoint, Long Island City, Williamsburg, and Upper East Side and Upper West Side. Citi Bike riders hit a new milestone, <strong>10 million trips in one year</strong>.
+                <div class="header robotoMono">2015</div>
+                <p class="faded"> Citi Bike expands with 140 new stations in Bed-Stuy, Greenpoint, Long Island City, Williamsburg, and the Upper East and West Sides, while riders achieve a milestone of 10 million trips in one year.
                 </p>
             </section>
             <section class="space"></section>
             <section class="step year-2016">
-                <div class="header">2016</div>
-                <p class="faded"> Citi Bike <strong>expansion continues, bringing another 140 stations</strong> in the Upper East Side & Upper West Side in Manhattan and Jersey City, and moving into new Brooklyn neighborhoods. The program also grows from 8,000 to 10,000
-                    bikes. <strong>Citi Bike gains its 
-                100,000th Annual Member</strong>. </p>
+                <div class="header robotoMono">2016</div>
+                <p class="faded"> Citi Bike expands with 140 new stations in Manhattan, Jersey City, and Brooklyn, increasing its fleet from 8,000 to 10,000 bikes and reaching its 100,000th annual member. </p>
             </section>
             <section class="space"></section>
             <section class="step year-2017">
-                <div class="header">2017</div>
-                <p class="faded"> Citi Bike <strong>adds another 142 stations</strong> in Harlem, East Harlem, Astoria, Crown Heights, and Prospect Heights, growing from <strong>10,000 to 
-                12,000 bikes</strong>. </p>
+                <div class="header robotoMono">2017</div>
+                <p class="faded"> Citi Bike adds 142 stations in Harlem, East Harlem, Astoria, Crown Heights, and Prospect Heights, expanding its fleet from 10,000 to 12,000 bikes. </p>
             </section>
             <section class="space"></section>
             <section class="step year-2018">
-                <div class="header">2018</div>
-                <p class="faded"> NYC reaches an <strong>agreement with Lyft to dramatically expand Citi Bike</strong>—Lyft will invest <strong>$100 million 
-                to improve and strengthen the system</strong>, doubling Citi Bike’s service area and tripling the number of bikes in the next five years to 40,000, making it one of the largest bike share systems in the world. Additionally, <strong>the Reduced Fare Bike Share program</strong>,
-                    providing discounted memberships of $5 per month for all NYCHA residents and SNAP recipients, <strong>is expanded and enshrined in Lyft’s 
-                agreement with the City</strong>. </p>
+                <div class="header robotoMono">2018</div>
+                <p class="faded"> NYC and Lyft agree to a $100 million investment to double Citi Bike’s service area and triple its fleet to 40,000 bikes in five years, while expanding the Reduced Fare Bike Share program for NYCHA residents and SNAP recipients. </p>
             </section>
             <section class="space"></section>
             <section class="step year-2019">
-                <div class="header">2019</div>
-                <p class="faded"> Citi Bike has <strong>boomed in popularity</strong> since it debuted in 2013, nearly <strong>doubling the number of bikes in its fleet 
-                and tripling the average number of daily rides</strong>. It is also now available on the Lyft app. <strong>However, due to security concerns with brakes and batteries</strong>, Citibike <strong>removes 2,500 ebikes</strong> from its bikeshare
-                    fleets in New York, San Francisco and Washington DC. </p>
+                <div class="header robotoMono">2019</div>
+                <p class="faded"> Since its 2013 debut, Citi Bike's popularity has soared, doubling its fleet and tripling daily rides, now available on the Lyft app, but security concerns with brakes and batteries have led to the removal of 2,500 e-bikes from its fleets in NYC, San Francisco, and Washington DC. </p>
             </section>
             <section class="space"></section>
             <section class="step year-2020">
-                <div class="header">2020</div>
-                <p class="faded"> Citi Bike <strong>reintroduces e-bikes to their bike share fleet in New York City</strong>. With the <strong>COVID-19 pandemic, new 
-                ridership patterns arise</strong>. On standard weekday commutes, there are typically 45% more evening commuters than morning commuters. During COVID, this trend becomes even more pronounced, with more than twice as many evening trips.
+                <div class="header robotoMono">2020</div>
+                <p class="faded"> Citi Bike reintroduces e-bikes in NYC, noting new COVID-19 ridership patterns with evening commutes more than doubling compared to mornings.
                 </p>
             </section>
             <section class="space"></section>
             <section class="step year-2021">
-                <div class="header">2021</div>
-                <p class="faded"> Citibike <strong>expands to Inwood and Washington Heights, completing its Manhattan expansion</strong>. It also <strong>launches in 
-                Hoboken, creating a seamless bikeshare system between Hoboken, Jersey City, and New York City</strong>. Additionally, riding patterns are now more complicated and unpredictable than ever, with hybrid work schedules layered on top of schools
-                    reopening, and warm weather recreational rides that don’t follow traditional commuting patterns. </p>
+                <div class="header robotoMono">2021</div>
+                <p class="faded"> Citibike completes its Manhattan expansion by extending to Inwood and Washington Heights, launches in Hoboken to create a seamless bikeshare system with Jersey City and NYC, and faces more complicated and unpredictable riding patterns due to hybrid work schedules, school reopenings, and warm weather recreational rides.
+                </p>
             </section>
             <section class="space"></section>
             <section class="step year-2022">
-                <div class="header">2022</div>
-                <p class="faded"> Citibike rolls out <strong>new and improved powerful e-bikes with increased safety features</strong> in May. There are now 23,500 bikes, including 4,500 ebikes, across more than 1,500 stations. Citi Bike has expanded its service area to
-                    include new parts of Astoria, Sunset Park, and Inwood, and the West Bronx. <strong>Emboldened, Citi Bike eliminates the $3 price cap on e-bike rides 
-                for members riding between outer boroughs (Queens and Brooklyn) of NYC</strong>. </p>
+                <div class="header robotoMono">2022</div>
+                <p class="faded"> In May, Citibike introduced powerful new e-bikes with enhanced safety features, expanding to 23,500 bikes (4,500 e-bikes) across 1,500+ stations, extending service to Astoria, Sunset Park, Inwood, and the West Bronx, and removing the $3 price cap for members riding e-bikes between Queens and Brooklyn.</p>
 
             </section>
             <section class="space"></section>
             <section class="step year-2023">
-                <div class="header">2023</div>
-                <p class="faded"> There are more than 30,000 bikes and over 2,000 stations. Citibike <strong>announces that ebikes will make up roughly 
-                half of their fleet by the end of 2024</strong>. The blue bikes have become popular fixtures in New York City’s landscape, making
-                    <strong>appearances in films and TV shows</strong> like Succession, Blue Bloods and Entergalactic. Despite the demand, Citi Bike’s agreement with New York City doesn’t include system expansion or public funding for bike share.
+                <div class="header robotoMono">2023</div>
+                <p class="faded"> Citibike, with over 30,000 bikes and 2,000 stations, plans to have ebikes make up half its fleet by 2024, and despite their popularity in NYC and appearances in shows like Succession, Blue Bloods, and Entergalactic, the agreement with NYC lacks system expansion or public funding.
                 </p>
             </section>
             <section class="space"></section>
             <section class="step year-2024">
-                <div class="header">2024</div>
-                <p class="faded"> Citibike announces increases in prices to help fund station upgrades and more e-bikes. Later this year, the program <strong>will 
-                open its first electrified stations</strong> to streamline the charging process for their e-bikes and cut down on 80 percent of the manual battery swaps the company currently has to do. </p>
+                <div class="header robotoMono">2024</div>
+                <p class="faded"> 
+                    Citibike is raising prices to fund station upgrades and more e-bikes, with plans to open its first electrified stations later this year to streamline e-bike charging and reduce manual battery swaps by 80 percent. </p>
             </section>
         </div>
         <div id="vis">
